@@ -3,7 +3,7 @@ import AddCategory from './component/AddCategory';
 import GifGrid from './component/GifGrid';
 const GifApp = () => {
 
-const [categories,setCategories] =  useState(['One Punch','Bayonetta']);
+const [categories,setCategories] =  useState([]);
 
   const onAddCategory = (newCategory) => {
     if(categories.includes(newCategory)) return;
